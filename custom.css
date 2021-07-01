@@ -32,3 +32,53 @@ ul li{
 .navigation li a:hover{
     background-color: black;
 }
+.slider-content{
+    height: 300px;
+    width: 600px;
+    position: relative;
+}
+.navigarionbtn{
+    position: absolute;
+    display: block;
+    padding: 5px 10px;
+    background-color: rgba(5,5,5,0.5);
+    color: #ffffff;
+    text-decoration: none;
+}
+.navigarionbtn:hover{
+    background-color: rgba(5,5,5,1);
+    transition: 1s all;
+}
+#next{
+    right: 0px;
+    top: 150px;
+}
+#prev{
+    left: 0px;
+    top: 150px;
+}
+.slider-content{
+    height: 300px;
+    width: 600px;
+    position: relative;
+}
+.navigarionbtn{
+    position: absolute;
+    display: block;
+    padding: 5px 10px;
+    background-color: rgba(5,5,5,0.5);
+    color: #ffffff;
+    text-decoration: none;
+}
+.navigarionbtn:hover{
+    background-color: rgba(5,5,5,1);
+    transition: 1s all;
+}
+#next{
+    right: 0px;
+    top: 150px;
+}
+#prev{
+    left: 0px;
+    top: 150px;
+}
