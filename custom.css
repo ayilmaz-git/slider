@@ -1,0 +1,34 @@
+body{
+    font-family: Arial;
+}
+ul{
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+}
+ul li{
+    float: left;
+}
+.clear{
+    clear: both;
+}
+.slider li {
+    display: none;
+}
+.navigation li{
+    margin-right: 5px;
+}
+.navigation li a{
+    padding: 5px 10px;
+    text-decoration: none;
+    background-color: #555;
+    color: gold;
+    display: block;
+}
+.navigation li a.active{
+    background-color: #ffc800;
+    color: #eee;
+}
+.navigation li a:hover{
+    background-color: black;
+}
